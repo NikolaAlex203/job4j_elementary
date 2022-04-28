@@ -6,7 +6,7 @@ public class MathFunc {
         return y;
     }
     public static int func2(int x) {
-        int y = 10 / x;
+        int y = 100 / x;
         return y;
     }
     public static void main(String[] args) {
