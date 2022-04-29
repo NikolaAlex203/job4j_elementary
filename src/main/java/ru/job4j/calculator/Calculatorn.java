@@ -1,10 +1,11 @@
-package ru.job4j.calculatorn;
+package ru.job4j.calculator;
 
 public class Calculatorn {
     public static void plus(int first, int second) {
         int result = first + second;
         System.out.println(result);
     }
+
     public static void main(String[] args) {
         Calculatorn.plus(1, 2);
         Calculatorn.plus(10, 11);
