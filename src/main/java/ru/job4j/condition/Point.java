@@ -8,7 +8,6 @@ public class Point {
         double powY = Math.pow(deltaY, 2);
         double powXPlusPowY = powX + powY;
         double rsl = Math.sqrt(powXPlusPowY);
-//        (Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         return rsl;
     }
 
