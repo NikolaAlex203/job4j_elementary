@@ -26,3 +26,4 @@ public class MathCalculator {
         System.out.println("The calculation result is : " + general(200, 5));
     }
 }
+
