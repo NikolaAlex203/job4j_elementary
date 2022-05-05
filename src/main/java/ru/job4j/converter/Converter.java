@@ -20,11 +20,11 @@ public class Converter {
         float expectedE = 3.8961039F;
         float outE = Converter.rubleToEuro(inE);
         boolean passedE = expectedE == outE;
-        System.out.println("300 rubles are 4. Test result : " + passedE);
+        System.out.println("300 rubles are 3.8961039. Test result : " + passedE);
         float inD = 500;
         float expectedD = 6.9444447F;
         float outD = Converter.rubleToDollar(inD);
         boolean passedD = expectedD == outD;
-        System.out.println("500 rubles are 7. Test result : " + passedD);
+        System.out.println("500 rubles are 6.9444447. Test result : " + passedD);
     }
 }
