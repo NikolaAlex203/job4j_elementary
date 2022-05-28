@@ -8,6 +8,5 @@ public class Triangle {
     public static void main(String[] args) {
         boolean trg = Triangle.exist(2, 2, 2);
         System.out.println("Треугольник существует? Ответ: " + trg);
-       // System.out.println(exist(2, 2, 2));
     }
 }
