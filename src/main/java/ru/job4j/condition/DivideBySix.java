@@ -16,6 +16,6 @@ public class DivideBySix {
     }
 
     public static void main(String[] args) {
-        System.out.println(checkNumber(14));
+        System.out.println(checkNumber(29));
     }
 }
