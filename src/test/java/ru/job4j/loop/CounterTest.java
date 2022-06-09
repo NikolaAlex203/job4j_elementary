@@ -24,11 +24,11 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumNotEvenNumbersFromOneToTenThenEighteen() {
+    public void whenSumNotEvenNumbersFromOneToTenThenTwentyFive() {
         int start = 0;
         int finish = 10;
         int result = Counter.sumByNotEven(start, finish);
-        int expected = 18;
+        int expected = 25;
         Assert.assertEquals(expected, result);
     }
 }

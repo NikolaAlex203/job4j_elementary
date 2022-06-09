@@ -22,7 +22,7 @@ public class Counter {
     public static int sumByNotEven(int start, int finish) {
         int sum = 0;
         for (int index = start; index <= finish; index++) {
-            if (index % 3 == 0) {
+            if (index % 2 == 1) {
                 sum = sum + index;
             }
         }
