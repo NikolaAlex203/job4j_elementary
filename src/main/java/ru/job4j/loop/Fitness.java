@@ -12,7 +12,7 @@ public class Fitness {
     }
 
     public static void main(String[] args) {
-        int m = Fitness.calc(95, 90);
+        int m = Fitness.calc(82, 90);
         System.out.println("Иван обгонит Николая через " + m + " месяц/месяца/месяцев");
     }
 }
