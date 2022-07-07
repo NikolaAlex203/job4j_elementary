@@ -7,8 +7,8 @@ public class ArrayLoop {
             form[i] = i * 2 + 3;
         }
 
-        for (int i = 0; i < form.length; i++) {
-            System.out.println(form[i]);
+        for (int forms : form) {
+            System.out.println(forms);
         }
     }
 }
